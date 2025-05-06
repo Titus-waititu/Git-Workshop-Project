@@ -24,7 +24,9 @@ body {
     color: white;
     font-size: 24px;
     font-weight: bold;
-    }
+
+}
+
 
 .cart-items {
     padding: 20px;
@@ -35,7 +37,9 @@ body {
     margin-bottom: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid #eee;
+
     }
+
 
 .item-image {
     width: 100px;
@@ -44,6 +48,7 @@ body {
     border-radius: 4px;
     margin-right: 20px;
     border: 1px solid #ddd;
+
 }
 
 .item-details {
@@ -54,6 +59,7 @@ body {
     font-weight: bold;
     margin-bottom: 5px;
     font-size: 18px;
+
 }
 
 .item-price {
@@ -61,18 +67,22 @@ body {
     font-weight: bold;
     margin-bottom: 10px;
     font-size: 16px;
+
+
 }
 
 .item-quantity {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+
 }
 
 .quantity-btn {
     width: 30px;
     height: 30px;
     background: #f1f1f1;
+
     border: 1px solid #ddd;
     border-radius: 4px;
     cursor: pointer;
@@ -82,6 +92,12 @@ body {
 
 .quantity-btn:hover {
     background: #e0e0e0;
+
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+
 }
 
 .quantity-input {
@@ -105,6 +121,8 @@ body {
 
 .remove-btn:hover {
     color: #c0392b;
+    margin-top: 10px;
+
 }
 
 .cart-summary {
@@ -117,11 +135,18 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+
     }
 
 .total {
     font-weight: bold;
     font-size: 20px;
+
+}
+
+.total {
+    font-weight: bold;
+
     font-size: 18px;
 }
 
@@ -142,6 +167,7 @@ body {
 .checkout-btn:hover {
     background: #27ae60;
 }
+
 footer {
     text-align: center;
     margin-top: 20px;
@@ -149,14 +175,20 @@ footer {
     color: #777;
 }
 
+
 @media (max-width: 600px) {
     .cart-item {
         flex-direction: column;
+
             }
+
+    
+
     
     .item-image {
         margin-bottom: 10px;
     }
+
 
     .item-details {
         width: 100%;
