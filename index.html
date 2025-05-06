@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple E-Commerce Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cart-container">
+        <div class="cart-header">
+            Your Shopping Cart
+        </div>
+        
+        <div class="cart-items">
+            <!-- Item 1 -->
+            <div class="cart-item">
+                <img src="https://via.placeholder.com/100" alt="Product" class="item-image">
+                <div class="item-details">
+                    <div class="item-name">Wireless Headphones</div>
+                    <div class="item-price">$99.99</div>
+                    <div class="item-quantity">
+                        <button class="quantity-btn">-</button>
+                        <input type="number" value="1" min="1" class="quantity-input">
+                        <button class="quantity-btn">+</button>
+                    </div>
+                    <button class="remove-btn">Remove</button>
+                </div>
+            </div>
+            
+            <!-- Item 2 -->
+            <div class="cart-item">
+                <img src="https://via.placeholder.com/100" alt="Product" class="item-image">
+                <div class="item-details">
+                    <div class="item-name">Smart Watch</div>
+                    <div class="item-price">$199.99</div>
+                    <div class="item-quantity">
+                        <button class="quantity-btn">-</button>
+                        <input type="number" value="1" min="1" class="quantity-input">
+                        <button class="quantity-btn">+</button>
+                    </div>
+                    <button class="remove-btn">Remove</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cart-summary">
+            <div class="summary-row">
+                <span>Subtotal:</span>
+                <span>$299.98</span>
+            </div>
+            <div class="summary-row">
+                <span>Shipping:</span>
+                <span>$5.99</span>
+            </div>
+            <div class="summary-row total">
+                <span>Total:</span>
+                <span>$305.97</span>
+            </div>
+            
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+</body>
+</html>
