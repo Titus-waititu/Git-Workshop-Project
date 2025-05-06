@@ -126,6 +126,12 @@ body {
 .checkout-btn:hover {
     background: #27ae60;
 }
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
 
 @media (max-width: 600px) {
     .cart-item {
